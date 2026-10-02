@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="pink">
+	<h1> Inscription Client- Méditerannée</h1>
+	<form action="#" method="post">
+<table width="70%" border="0">
+
+<tr>
+<td><label for="nom">Nom :</label></td>
+<td><input type="text" id="nom" name="nom"></td>
+</tr>
+<tr>
+<td><label for="prenom">Prénom :</label></td>
+<td><input type="text" id="prenom" name="prenom"></td>
+</tr>
+<tr>
+<td><label for="naissance">Date de naissance :</label></td>
+<td><input type="date" id="naissance" name="naissance"></td>
+</tr>
+<tr>
+<td><label for="email">Adresse mail :</label></td>
+<td><input type="email" id="email" name="email"></td>
+</tr>
+<tr>
+<td><label for="mdp">Mot de passe :</label></td>
+<td><input type="password" id="mdp" name="mdp"></td>
+</tr>
+<tr>
+<td><label for="permis">Permis :</label></td>
+<td><input type="text" id="permis" name="permis"></td>
+</tr>
+<tr>
+<td><label for="anciennete">Nombre d'années d'ancienneté :</label></td>
+<td><input type="number" id="anciennete" name="anciennete" min="0" max="80"></td>
+</tr>
+<tr>
+<td><label for="ville">Ville :</label></td>
+<td>
+<select id="ville" name="ville">
+<option value="paris">Paris</option>
+<option value="versailles">Versailles</option>
+<option value="creteil">Créteil</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="adresse">Adresse du client :</label></td>
+<td><textarea id="adresse" name="adresse" rows="4" cols="30"></textarea></td>
+</tr>
+<tr>
+<td>Situation matrimoniale :</td>
+<td>
+<input type="radio" id="marie_oui" name="marie" value="oui">
+<label for="marie_oui">Marié</label>
+<input type="radio" id="marie_non" name="marie" value="non">
+<label for="marie_non">Non marié</label>
+</td>
+</tr>
+<tr>
+<td>Préférence de voiture :</td>
+<td>
+<input type="checkbox" id="pref_auto" name="pref_auto" value="automatique">
+<label for="pref_auto">Automatique</label>
+<input type="checkbox" id="pref_manuelle" name="pref_manuelle" value="manuelle">
+<label for="pref_manuelle">Manuelle</label>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<button type="submit">Enregistrer</button>
+<button type="reset">Annuler</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
